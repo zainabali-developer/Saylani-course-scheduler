@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="border-b border-white/10">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 sm:py-5 flex items-center justify-between gap-3">
             <Link href="/" className="font-display font-bold text-base sm:text-lg tracking-tight shrink-0">
-              Saylani Weekend Classes
+              Saylani Cources
             </Link>
             <nav className="flex items-center gap-3.5 sm:gap-6 text-xs sm:text-sm text-paper/70 overflow-x-auto">
               <Link href="/courses" className="hover:text-paper transition-colors whitespace-nowrap">Courses</Link>
